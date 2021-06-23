@@ -1,0 +1,12 @@
+pages\AmazonPage.class
+stepdefinitions\YandexStepDef.class
+runners\TestRunner.class
+stepdefinitions\AmazonStepDefinitions.class
+utilities\Driver.class
+pages\KullaniciDataPage_Odev.class
+pages\YandexPage.class
+stepdefinitions\KoalaResortPageStepDef.class
+stepdefinitions\KullaniciData_Odev.class
+pages\KoalaResortPage.class
+runners\TestRunner2.class
+utilities\ConfigReader.class

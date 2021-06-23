@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="52.268">
+    <testcase classname="U1002_Amazon Bacground Kullanma" name="TC01_Amazon Arama Yapma" time="20.454">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And iPhone icin arama yapar.................................................passed
+Then sonuclarin iPhone icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="U1002_Amazon Bacground Kullanma" name="TC02_Amazon Arama Yapma" time="6.467">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And tea pot icin arama yapar................................................passed
+Then sonuclarin tea pot icerdigini test eder................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="U1002_Amazon Bacground Kullanma" name="TC03_Amazon Arama Yapma" time="7.294">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And flower icin arama yapar.................................................passed
+Then sonuclarin flower icerdigini test eder.................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC07_Amazon iPhone arama parametrli" time="8.826">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "iPhone" icin arama yapar..............................................passed
+Then sonuclarin "iPhone" icerdigini test eder...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC08_Amazon tea pot arama parametrli" time="4.219">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "tea pot" icin arama yapar.............................................passed
+Then sonuclarin "tea pot" icerdigini test eder..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004_Amazon Parameterized" name="TC09_Amazon flower arama parametrli" time="4.383">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+Then "flower" icin arama yapar..............................................passed
+Then sonuclarin "flower" icerdigini test eder...............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

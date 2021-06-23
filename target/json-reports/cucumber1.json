@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T19:48:16.297Z",
+        "line": 3,
+        "name": "TC01_Amazon Arama Yapma",
+        "description": "",
+        "id": "us1001-amazon-arama;tc01-amazon-arama-yapma",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9898375300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5418657300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "iPhone icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.i_phone_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3593062600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sonuclarin iPhone icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_iPhone_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2876033000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3745169200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "tea pot icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.tea_pot_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81465800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuclarin tea pot icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_tea_pot_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2396866000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3831807800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "flower icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.flower_icin_arama_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77607200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sonuclarin flower icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sonuclarin_flower_icerdigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216681100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rapor1"
+          }
+        ]
+      }
+    ],
+    "name": "US1001_amazon arama",
+    "description": "",
+    "id": "us1001-amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1001_amazon.feature",
+    "tags": [
+      {
+        "name": "@rapor1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
